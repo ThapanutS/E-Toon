@@ -1,0 +1,120 @@
+.comment-menu{width:1200px;margin:49px auto 0 auto;color:#999;}
+.line{background-color:#999;width:1px;height:10px;margin-left:10px;margin-right:10px;}
+.comment-menu div{display:inline-block;font-size:16px;}
+.comment-menu a:hover{color:rgb(140, 232, 121);}
+.comment-wrap{width:1200px;margin:20px auto 0 auto;}
+.comment-item{position:relative;}
+.head-image{position:absolute;top:15px;left:0;width:50px;height:50px;border-radius:25px;overflow:hidden;}
+.head-image img{width:100%;}
+.comment-right{width:1031px;border-bottom:1px solid rgba(0, 0, 0, 0.2);margin-left:65px;margin-top:15px;}
+.user-name{font-size:20px;margin-bottom:13px;color:#333;font-weight:bold;}
+.comment-detail{font-size:16px;padding-bottom:20px;line-height:29px;word-break:break-word;}
+.comment-item:last-child .comment-right{border:none;}
+.reply-wrap{box-sizing:border-box;width:1031px;padding:20px;background-color:#f4f4f4;border-radius:5px;font-size:18px;line-height:30px;}
+.reply-num{color:#ff5454}
+.reply-name{color:#999;}
+.reply-content{color:#333;word-break:break-word;}
+.like-button{color:#ccc;font-size:18px;line-height:40px;}
+.like-button span{margin-right:10px;}
+.selected{color:#ff5454;}
+.selected-detail{width:1200px;margin:19px auto 0 auto;font-size:18px;color:#333;line-height:29px;}
+.description{margin-top:20px;font-size:18px;}
+.description-tag div{display:inline-block;}
+.tag{height:34px;line-height:34px;text-align:center;font-size:16px;padding:0 23px;color:#999;background-color:#f4f4f4;border-radius:5px;margin-right:9px;margin-top:20px;margin-bottom:5px;}
+.hot-comment-wrap{font-size:28px;font-weight:bold;line-height:90px;border-top:1px solid rgba(0, 0, 0, 0.2);margin-top:30px;}
+.recommended-wrap{margin-bottom:90px;}
+.recommended-title{font-size:28px;font-weight:bold;line-height:90px;margin-top:10px;border-top:1px solid #ccc;}
+.recommend-item{display:inline-block;margin-right:30px;}
+.comics-image{width:160px;height:214px;}
+.comics-image img{width:100%;}
+.recommend-comics-title{font-size:16px;color:#333;width:160px;height:30px;line-height:30px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.comics-type{color:#999;font-size:14px;width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.selected-episodes{width:1200px;margin:0 auto;}
+.episode-count{font-size:18px;line-height:88px;color:#999;}
+.episode-item{width:540px;height:90px;border-top:1px solid #ccc;float:left;margin-right:50px;position:relative;}
+.item-left{display:inline-block;line-height:90px;font-size:30px;color:#ccc;margin-left:30px;}
+.item-right{margin-left:20px;display:inline-block;position:absolute;top:20px;left:60px;}
+.lock{position:absolute;right:10px;top:30px;font-size:35px;}
+.episode-title{font-size:18px;color:#333;margin-left:10px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;width: 450px;}
+.episode-date{margin-top:10px;font-size:14px;color:#999;}
+.episode-date span{margin-left:10px;color:#999;}
+.like-icon{color:#999;margin-left:25px}
+.update-date{color:#FF5454;margin-left:25px}
+.page{padding:25px 0;width:1200px;margin:0 auto;overflow:hidden;}
+.previous{border:1px solid #666666;border-radius:25px;width:180px;height:50px;line-height:50px;color:#666666;
+  font-size:14px;text-align:center;float:left;margin-left:410px;}
+.next{border:1px solid #666666;border-radius:25px;width:180px;height:50px;line-height:50px;color:#666666;
+  font-size:14px;text-align:center;float:left;margin-left:20px;}
+.previous-icon{color:#666666;font-size:14px;margin-right:5px;}
+.next-icon{color:#666666;font-size:14px;margin-left:5px;}
+.un-click{border:1px solid #ccc;color:#ccc;}
+.un-click-icon{color:#ccc;}
+.br{display:none;}
+.mobile-video-description{display:none;}
+.pc-video-description{display:flex;flex-direction:row;padding:30px 0;}
+.pc-video-description .video-cover{width:150px;height:200px;margin-right:40px;}
+.pc-video-description .video-cover img{width:150px;height:200px;}
+h1{margin:0;}
+.pc-video-title{font-size:28px;color:#333;line-height:33px;font-weight:bold;}
+.pc-video-alias-title{font-size:16px;color:#999;line-height:22px;margin-bottom:20px;}
+/* æ‰‹æœºç«¯CSSé€‚é… */
+@media only screen and (max-width:800px){
+  .comment-menu{width:90%;margin-top:20px;color:#999;margin-left:10px;}
+  .line{background-color:#999;width:1px;height:10px;margin-left:10px;margin-right:10px;}
+  .comment-menu div{display:inline-block;font-size:16px;}
+  .comment-wrap{width:100%;margin-top:10px;}
+  .icon-wrap{margin:20px;}
+  .like-icon{color:#999;margin-left:10px;}
+  .update-date{color:#FF5454;margin-left:0;}
+  .br{display:block;}
+  .head-image{position:absolute;top:0;left:10px;width:50px;height:50px;border-radius:50%;overflow:hidden;}
+  .head-image img{width:100%;}
+  .comment-right{width:76%;border-bottom:1px solid rgba(0, 0, 0, 0.2);margin-left:70px;margin-top:15px;}
+  .user-name{font-size:16px;margin-bottom:5px;padding-top:10px;color:#333;font-weight:bold;}
+  .comment-detail{font-size:14px;padding-bottom:10px;line-height:20px;word-break:break-word;}
+  .comment-item:last-child .comment-right{border:none;}
+  .reply-wrap{box-sizing:border-box;width:95%;padding:15px;background-color:#f4f4f4;border-radius:10px;font-size:14px;line-height:20px;}
+  .reply-num{color:#ff5454}
+  .reply-name{color:#999;}
+  .reply-content{color:#333;word-break:break-word;}
+  .like-button{color:#ccc;font-size:14px;line-height:30px;}
+  .like-button span{margin-right:10px;}
+  .selected{color:#ff5454;}
+  .selected-detail{width:100%;margin:10px 0;font-size:14px;color:#333;line-height:20px;}
+  .description{margin:20px;font-size:12px;}
+  .mobile-video-description{display:block;margin:20px;font-size:12px;}
+  .pc-video-description{display:none;}
+  .description-tag{margin-left:20px;}
+  .tag{font-size:12px;padding:4px 10px;color:#999;background-color:#f4f4f4;border-radius:5px;margin-right:5px;margin-top:0;}
+  .hot-comment-wrap{font-size:20px;font-weight:bold;line-height:40px;border-top:1px solid rgba(0, 0, 0, 0.2);margin-top:20px;padding-left:10px;}
+  .recommended-wrap{margin-bottom:0;}
+  .recommended-title{font-size:20px;font-weight:bold;line-height:40px;padding-top:10px;border-top:1px solid #ccc;padding-left:20px;margin-bottom:10px;}
+  .recommend-comics{overflow:hidden;}
+  .recommend-item{float:left;width:32%;margin-bottom:20px;}
+  .recommend-item:nth-child(3n){margin-right:0;}
+  .recommend-item:nth-child(3n+1){margin-right:2%;}
+  .recommend-item:nth-child(3n+2){margin-right:2%;}
+  .comics-image{padding-bottom:133.33%;height:0;width:100%;}
+  .comics-image img{width:100%;}
+  .recommend-comics-title{padding:0 5px;font-size:14px;color:#333;width:95%;height:20px;line-height:20px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .comics-type{padding:0 5px;color:#999;font-size:12px;width:95%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .selected-episodes{width:100%;margin:0;}
+  .episodes-wrap{width:100%;overflow:hidden;}
+  .episode-count{font-size:16px;line-height:50px;color:#999;margin-top:2px;margin-left:20px;}
+  .episode-item{width:100%;height:60px;border-top:1px solid #ccc;float:left;margin-right:0;position:relative;}
+  .item-left{display:inline-block;line-height:60px;font-size:18px;color:#ccc;margin-left:30px;}
+  .item-right{margin-left:20px;display:inline-block;position:absolute;top:10px;left:60px;}
+  .lock{position:absolute;right:10px;top:30px;font-size:35px;}
+  .episode-title{font-size:14px;color:#333;margin-left:10px;}
+  .episode-date{margin-top:5px;font-size:12px;color:#999;}
+  .episode-date span{margin-left:10px;color:#999;}
+  .page{padding:10px 0;width:100%;margin:0;overflow:hidden;border-top:1px solid #d8d8d8;}
+  .previous{border:0;border-radius:0;width:49%;height:50px;line-height:50px;color:#666666;
+    font-size:14px;text-align:center;float:left;margin-left:0;border-right:1px solid #d8d8d8;}
+  .next{border:0;border-radius:0;width:50%;height:50px;line-height:50px;color:#666666;
+    font-size:14px;text-align:center;float:left;margin-left:0;}
+  .previous-icon{color:#666666;font-size:14px;margin-right:5px;}
+  .next-icon{color:#666666;font-size:14px;margin-left:5px;}
+  .un-click{color:#ccc;}
+  .un-click-icon{color:#ccc;}
+}
